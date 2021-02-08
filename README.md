@@ -29,7 +29,6 @@ Check if xrdp is running.
 
 	Comment out this lines
 	#test -x /etc/X11/Xsession && exec /etc/X11/Xsession
-	
 	#exec /bin/sh /etc/X11/Xsession
 	
 	Add this line to the bottom:
