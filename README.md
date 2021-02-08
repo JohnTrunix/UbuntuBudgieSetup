@@ -26,6 +26,8 @@ Check if xrdp is running.
 
 `sudo systemctl status xrdp`
 
+Add xrdp-user to ssl-cert group
+
 `sudo adduser xrdp ssl-cert`
 
 `sudo nano /etc/xrdp/startwm.sh`	[Guide](https://froth-and-java.dev/posts/ubuntu-budgie-and-xrdp)
