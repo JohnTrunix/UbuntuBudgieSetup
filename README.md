@@ -28,9 +28,10 @@ Check if xrdp is running.
 
 
 
+
 `sudo adduser xrdp ssl-cert`
 
-`sudo nano /etc/xrdp/startwm.sh` [Guide](https://froth-and-java.dev/posts/ubuntu-budgie-and-xrdp)
+`sudo nano /etc/xrdp/startwm.sh`    [Guide](https://froth-and-java.dev/posts/ubuntu-budgie-and-xrdp)
 
 	Comment out this lines
 	#test -x /etc/X11/Xsession && exec /etc/X11/Xsession
