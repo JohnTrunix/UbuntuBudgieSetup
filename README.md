@@ -1,7 +1,12 @@
 # UbuntuBudgieSetup
 
 ## General
-This cheat sheet is my personal setup after a reinstallation of Ubuntu Budgie 20.4
+This cheat sheet is my personal setup after a reinstallation of Ubuntu Budgie 20.04
+First always do:
+
+`sudo apt-get update`
+
+`sudo apt-get upgrade`
 
 ## Make sudo useable without pw
 
@@ -14,13 +19,10 @@ Add this line at the bottom, change ubuntu by your username
 
 ## Install XRDP Server
 
-`sudo apt-get update`
-
-`sudo apt-get upgrade`
-
 `sudo apt install xrdp`
 
 Check if xrdp is running.
+
 `sudo systemctl status xrdp`
 
 `sudo adduser xrdp ssl-cert`
