@@ -32,7 +32,9 @@ Add xrdp-user to ssl-cert group
 
 Fix the "RDP Windowsession closes after login" Problem
 
-`sudo nano /etc/xrdp/startwm.sh`	[Guide](https://froth-and-java.dev/posts/ubuntu-budgie-and-xrdp)
+Take a look at "Configuring" in this [Guide](https://froth-and-java.dev/posts/ubuntu-budgie-and-xrdp)
+
+`sudo nano /etc/xrdp/startwm.sh`
 
 	Comment out this lines
 	#test -x /etc/X11/Xsession && exec /etc/X11/Xsession
