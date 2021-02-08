@@ -1,9 +1,9 @@
 # UbuntuBudgieSetup
 
-**General
+## General
 This cheat sheet is my personal setup after a reinstallation of Ubuntu Budgie 20.4
 
-**Make sudo useable without pw
+## Make sudo useable without pw
 sudo visudo
 
 ubuntu should be your user
@@ -11,7 +11,7 @@ ubuntu should be your user
 ubuntu ALL=NOPASSWD: ALL
 
 
-**Install XRDP Server
+## Install XRDP Server
 
 sudo apt-get update
 sudo apt-get upgrade
@@ -26,6 +26,6 @@ sudo nano /etc/xrdp/startwm.sh (https://froth-and-java.dev/posts/ubuntu-budgie-a
 sudo systemctl restart xrdp
 
 
-**Install SSH Server
+## Install SSH Server
 sudo apt install openssh-server
 sudo systemctl status ssh
