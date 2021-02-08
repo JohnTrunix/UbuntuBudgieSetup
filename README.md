@@ -2,6 +2,7 @@
 
 ## General
 This cheat sheet is my personal setup after a reinstallation of Ubuntu Budgie 20.04
+
 First always do:
 
 `sudo apt-get update`
@@ -24,6 +25,7 @@ Add this line at the bottom, change ubuntu by your username
 Check if xrdp is running.
 
 `sudo systemctl status xrdp`
+
 
 `sudo adduser xrdp ssl-cert`
 
