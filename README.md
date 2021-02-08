@@ -30,6 +30,8 @@ Add xrdp-user to ssl-cert group
 
 `sudo adduser xrdp ssl-cert`
 
+Fix the "RDP Windowsession closes after login" Problem
+
 `sudo nano /etc/xrdp/startwm.sh`	[Guide](https://froth-and-java.dev/posts/ubuntu-budgie-and-xrdp)
 
 	Comment out this lines
