@@ -4,7 +4,7 @@
 This cheat sheet is my personal setup after a reinstallation of Ubuntu Budgie 20.4
 
 ## Make sudo useable without pw
-sudo visudo
+"sudo visudo"
 
 ubuntu should be your user
 
