@@ -1,7 +1,8 @@
 # UbuntuBudgieSetup
 
 ## General
-This cheat sheet is my personal setup after a reinstallation of Ubuntu Budgie 20.04
+This cheat sheet is my personal setup after a reinstallation of Ubuntu Budgie 20.04.
+I try to keep it up to date!
 
 First always do:
 
