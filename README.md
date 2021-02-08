@@ -27,6 +27,7 @@ Check if xrdp is running.
 `sudo systemctl status xrdp`
 
 
+
 `sudo adduser xrdp ssl-cert`
 
 `sudo nano /etc/xrdp/startwm.sh` [Guide](https://froth-and-java.dev/posts/ubuntu-budgie-and-xrdp)
@@ -43,5 +44,7 @@ Check if xrdp is running.
 
 ## Install SSH Server
 `sudo apt install openssh-server`
+
+Check if SSH is running
 
 `sudo systemctl status ssh`
