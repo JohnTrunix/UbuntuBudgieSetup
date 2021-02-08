@@ -7,9 +7,9 @@ I try to keep it up to date!
 
 First always do:
 
-`sudo apt-get update`
+`sudo apt update`
 
-`sudo apt-get upgrade`
+`sudo apt upgrade`
 
 ## Make sudo useable without pw
 
